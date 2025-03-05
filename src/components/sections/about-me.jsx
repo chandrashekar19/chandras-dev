@@ -62,63 +62,73 @@ export const About = () => {
                   ))}
                 </div>
               </div>
+            </div>
 
-              <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                <h3 className="text-xl font-bold mb-4">Tools</h3>
-                <div className="flex flex-wrap gap-2">
-                  {Tools.map((tech, key) => (
-                    <span
-                      key={key}
-                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
+            <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
+              <h3 className="text-xl font-bold mb-4">Tools</h3>
+              <div className="flex flex-wrap gap-2">
+                {Tools.map((tech, key) => (
+                  <span
+                    key={key}
+                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
                                     hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] transition
                     "
-                    >
-                      {tech}
-                    </span>
-                  ))}
-                </div>
+                  >
+                    {tech}
+                  </span>
+                ))}
               </div>
             </div>
           </div>
+        </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-            <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
-              <ul className="list-disc list-inside text-gray-300 space-y-2">
-                <li>
-                  <strong> B.S. in Computer Science </strong> - XYZ University
-                  (2016-2020)
-                </li>
-                <li>
-                  Relevant Coursework: Data Structures, Web Development, Cloud
-                  Computing...
-                </li>
-              </ul>
-            </div>
-            <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
-              <div className="space-y-4 text-gray-300">
-                <div>
-                  <h4 className="font-semibold">
-                    {" "}
-                    Software Engineer at ABC Corp (2020 - Present){" "}
-                  </h4>
-                  <p>
-                    Developed and maintained microservices for cloud-based
-                    applications.
-                  </p>
-                </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+          <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+            <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
+            <ul className="list-disc list-inside text-gray-300 space-y-2">
+              <li>
+                <strong> BTECH in Computer Science </strong> - Guru Nanak
+                Institutions Technical campus (2016-2020)
+              </li>
+              <li>Relevant Coursework: Web Technologies</li>
+            </ul>
+          </div>
 
-                <div>
-                  <h4 className="font-semibold">
-                    {" "}
-                    Intern at DEF Startups (2019){" "}
-                  </h4>
-                  <p>
-                    Assisted in building front-end components and integration
-                    REST APIs
-                  </p>
-                </div>
+          <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+            <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
+            <div className="space-y-4 text-gray-300">
+              <div>
+                <h4 className="font-semibold">
+                  Freelance Web Developer (Jan 2024 - March 2025)
+                </h4>
+                <p>
+                  Built dynamic, responsive web applications using React, and
+                  modern Javascript for multiple clients including RayVector and
+                  Indgeos Geospatial Technologies. Worked on Land Management
+                  System Application for Andhra Pradesh Government.
+                </p>
+              </div>
+              <div>
+                <h4 className="font-semibold">
+                  Junior Software Engineer at Infinity Learn (May 2023 - Dec
+                  2023)
+                </h4>
+                <p>
+                  Contributed to developing student login and assessment
+                  platforms using React, Next.js, and Formik.
+                </p>
+              </div>
+              <div>
+                <h4 className="font-semibold">
+                  UI Engineer (May 2022 - Jan 2023)
+                </h4>
+                <p>
+                  Built dynamic, responsive web applications using React, Redux,
+                  and Material UI. Developed admin tools for internal purposes,
+                  leveraging React, Redux, Formik, and APIs from various
+                  microservices. Focused on enhancing authentication workflows
+                  and optimizing API interactions.
+                </p>
               </div>
             </div>
           </div>
