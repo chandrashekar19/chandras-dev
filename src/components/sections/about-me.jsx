@@ -99,7 +99,7 @@ export const About = () => {
             <div className="space-y-4 text-gray-300">
               <div>
                 <h4 className="font-semibold">
-                  Freelance Web Developer (Jan 2024 - March 2025)
+                  Freelance React Developer (March 2023 - present)
                 </h4>
                 <p>
                   Built dynamic, responsive web applications using React, and
@@ -107,12 +107,6 @@ export const About = () => {
                   Indgeos Geospatial Technologies. Worked on Land Management
                   System Application for Andhra Pradesh Government.
                 </p>
-              </div>
-              <div>
-                <h4 className="font-semibold">
-                  Junior Software Engineer at Infinity Learn (May 2023 - Dec
-                  2023)
-                </h4>
                 <p>
                   Contributed to developing student login and assessment
                   platforms using React, Next.js, and Formik.
