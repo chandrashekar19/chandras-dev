@@ -1,6 +1,6 @@
 import { RevealOnScroll } from "../reveal-onscroll";
 import { projectsData } from "../../constants";
-import { Github, Globe } from "lucide-react";
+import { Globe } from "lucide-react";
 
 export const Projects = () => {
   return (
@@ -46,7 +46,12 @@ export const Projects = () => {
                     rel="noopener noreferrer"
                     className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                   >
-                    <Github size={24} strokeWidth={1.5} />
+                    <img
+                      src="/public/image.png"
+                      alt="GitHub"
+                      className="w-6 h-6"
+                      style={{ filter: "invert(2)" }}
+                    />
                   </a>
                 </div>
               </div>
