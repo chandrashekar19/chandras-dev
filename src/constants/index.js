@@ -25,8 +25,37 @@ export const projectsData = [
     title: "Health Care Application",
     description:
       "Streamline patient care with our healthcare management app — enabling easy registration, appointment booking, and real-time scheduling with SMS notifications, built on Next.js for seamless performance.",
-    techStack: ["Next.js", "TypeScript", "Appwrite", "Twilio"],
+    techStack: ["Next.js", "typeScript", "Appwrite", "react query"],
     liveLink: "https://health-care-amber.vercel.app/",
     codeLink: "https://github.com/chandrashekar19/health-care",
+  },
+  {
+    title: "Sanpgram",
+    description:
+      "A modern social app with a stunning UI with a native mobile feel, a special tech stack, an infinite scroll feature, and amazing performance using React JS, Appwrite, TypeScript, and more ",
+    techStack: [
+      "Reeact js",
+      "typeScript",
+      "appwrite",
+      "tailwind",
+      "react query",
+    ],
+    liveLink: "https://snapgram-orcin-nu.vercel.app/",
+    codeLink: "https://github.com/chandrashekar19/social-media-app",
+  },
+  {
+    title: "Chatter fusion",
+    description:
+      "A real-time chat application built using React, Tailwind CSS, Zustand, and Socket.IO. Users can join rooms and send messages instantly.",
+    techStack: [
+      "React js",
+      "JavaScript",
+      "tailwind css",
+      "node js",
+      "zustand",
+      "socket.io",
+    ],
+    liveLink: "https://chatter-fusion.vercel.app/",
+    codeLink: "https://github.com/chandrashekar19/chatter-fusion",
   },
 ];

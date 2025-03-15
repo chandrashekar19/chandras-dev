@@ -87,10 +87,10 @@ export const About = () => {
             <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
             <ul className="list-disc list-inside text-gray-300 space-y-2">
               <li>
-                <strong> BTECH in Computer Science </strong> - Guru Nanak
-                Institutions Technical campus (2016-2020)
+                <strong> Bachelors of technology </strong> - Guru Nanak
+                Institutions Technical campus (2016 June -2020 November)
               </li>
-              <li>Relevant Coursework: Web Technologies</li>
+              <li>Relevant Coursework: Computer science</li>
             </ul>
           </div>
 

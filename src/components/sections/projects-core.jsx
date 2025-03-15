@@ -1,5 +1,6 @@
 import { RevealOnScroll } from "../reveal-onscroll";
 import { projectsData } from "../../constants";
+import { Github, Globe } from "lucide-react";
 
 export const Projects = () => {
   return (
@@ -37,7 +38,7 @@ export const Projects = () => {
                     rel="noopener noreferrer"
                     className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                   >
-                    View Project →
+                    <Globe size={24} strokeWidth={1.5} />
                   </a>
                   <a
                     href={project.codeLink}
@@ -45,7 +46,7 @@ export const Projects = () => {
                     rel="noopener noreferrer"
                     className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                   >
-                    Source Code →
+                    <Github size={24} strokeWidth={1.5} />
                   </a>
                 </div>
               </div>
