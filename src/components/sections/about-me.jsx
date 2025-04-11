@@ -131,34 +131,48 @@ export const About = () => {
               <div className="space-y-4 text-gray-300">
                 <div className="space-y-3">
                   <h4 className="font-semibold">
-                    Freelance React Developer (March 2023 - Present)
+                    Software Engineer - Indgeos Geospatial AI (Dec 2024 - Mar
+                    2025)
                   </h4>
                   <p>
-                    Led the development of a Land Management System at Indgeos
-                    Geospatial Technologies using React & Zustand, optimizing
-                    geospatial API integration and boosting processing
-                    efficiency by 30%.
-                  </p>
-                  <p>
-                    Built a GIS platform at Rayvector Technologies with React,
-                    Material-UI & Google Maps APIs, enhancing land-use
-                    visualization and increasing user engagement by 25%.
-                  </p>
-                  <p>
-                    Improved OTP authentication and UI responsiveness at
-                    Infinity Learn, reducing login failures by 40% through
-                    optimized form handling with Formik & Yup.
+                    Orchestrated the Land Management System at Indgeos
+                    Geospatial Technologies using React and Zustand, integrating
+                    geospatial APIs and designing data visualization components
+                    that improved land parcel processing efficiency by 30%.
                   </p>
                 </div>
                 <div className="space-y-3">
                   <h4 className="font-semibold">
-                    UI Engineer (May 2022 - Jan 2023)
+                    Software Engineer – Rayvector Technologies (Jun 2024 – Dec
+                    2024)
                   </h4>
                   <p>
-                    Developed an admin dashboard using React, Redux, and
-                    JavaScript to streamline operations, integrating CRUD
-                    functionality to enhance data management and improve admin
-                    efficiency by 20%.
+                    Engineered a GIS platform using React, Material-UI, and
+                    Google Maps APIs, enhancing land-use visualization with
+                    Google Street View and KML file transformations, increasing
+                    user engagement by 25%.
+                  </p>
+                </div>
+                <div className="space-y-3">
+                  <h4 className="font-semibold">
+                    Software Engineer - Infinity Learn (May 2023 - Apr 2024)
+                  </h4>
+                  <p>
+                    Enhanced the student login and assessment platform by
+                    improving OTP-based authentication, optimizing form handling
+                    with Formik & Yup, and developing responsive interfaces,
+                    reducing login failures by 40%.
+                  </p>
+                </div>
+                <div className="space-y-3">
+                  <h4 className="font-semibold">
+                    UI Engineer - Banyan Cloud (May 2022 - Apr 2023)
+                  </h4>
+                  <p>
+                    Contributed to the admin dashboard using React, Redux, and
+                    JavaScript to streamline administrative operations.
+                    Implemented CRUD functionality for efficient data
+                    management, improving admin efficiency by 20%.
                   </p>
                 </div>
               </div>
