@@ -131,8 +131,8 @@ export const About = () => {
               <div className="space-y-4 text-gray-300">
                 <div className="space-y-3">
                   <h4 className="font-semibold">
-                    Software Engineer - Indgeos Geospatial AI (Dec 2024 - Mar
-                    2025)
+                    Freelance software engineer - Indgeos Geospatial AI (Dec
+                    2024 - Mar 2025)
                   </h4>
                   <p>
                     Orchestrated the Land Management System at Indgeos
